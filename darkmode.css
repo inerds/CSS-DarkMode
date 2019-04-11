@@ -10,15 +10,13 @@ html {
 }
 
 // invert images and videos again so the colors appears normal
-
-img, video, embed, figure, svg {  
-   filter: invert(100%);
+figure {
+    filter: invert(100%);
 }
 
-// fix for img tags insude figure element
-picture img,
-figure img {
-    filter: invert(0%);
+
+img, video, embed,  svg {  
+   filter: invert(100%);
 }
 
 
