@@ -1,0 +1,15 @@
+// invert everything using css filter
+:root,
+html { 
+   background-color: white;
+   filter: invert(100%);
+}
+ 
+* { 
+   background-color: inherit;
+}
+
+// invert images and videos again so the colors appears normal
+img, video, embed {  
+   filter: invert(100%);
+}
